@@ -13,7 +13,8 @@ router.get('/', function(req, res, next) {
             res.status(500).json(err)
         } else{
             console.log('I am here in convo'+response);
-            res.status(200).json(response)
+            res.contentType('application/json');
+	    res.status(200).json(response)
         }
     })
 });

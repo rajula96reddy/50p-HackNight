@@ -28,3 +28,5 @@ var getCoins = function( callback) {
 }
 
 module.exports = getCoins
+
+
