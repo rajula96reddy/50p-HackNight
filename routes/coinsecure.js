@@ -5,7 +5,7 @@ var express = require('express');
 var getCoins = require('../public/javascripts/getCoins');
 
 var router = express.Router();
-router.get('/', function(req, res, next) {
+router.post('/', function(req, res, next) {
     console.log("Hey in Conversation");
     getCoins(function(err, response) {
         if (err) {

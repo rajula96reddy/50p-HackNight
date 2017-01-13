@@ -7,7 +7,7 @@ var getCoins = function( callback) {
         url: 'https://api.coinsecure.in/v1/exchange/lastTrade'
     }
     console.log(options.url);
-    request.post(options, function(err, response) {
+    request.get(options, function(err, response) {
         console.log(response.body.status+'Is the response body');
         if (err){
             return callback(err)
