@@ -19,7 +19,7 @@ var getCoins = function( callback) {
             callback(null,null);
         }
         console.log(response.body+'news is above thissssssssssssssss');
-        var newsData = responseJson.message.avgRate;
+        var newsData = responseJson.message;
         callback(null, newsData)
     })
 }
