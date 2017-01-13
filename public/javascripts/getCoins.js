@@ -20,7 +20,10 @@ var getCoins = function( callback) {
         }
         console.log(response.body+'news is above thissssssssssssssss');
         var newsData = responseJson.message;
-        callback(null, newsData)
+	var s = {"speech":"something", 
+	"displayText": "something",
+        "source": "apiai-weather-webhook-sample"}
+        callback(null, s)
     })
 }
 
