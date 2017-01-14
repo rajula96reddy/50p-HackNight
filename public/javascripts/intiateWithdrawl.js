@@ -11,7 +11,7 @@ var intiateWithdrawl = function( callback) {
         method: 'POST',
         json: {
             "walletID": "iZcKsBVoHgqKa6XrGvCU",
-            "amt": "0.01",
+            "amt": 1,
             "toAddr": "14dZz4jpcNMLfZCwKX9VzJwnCeKYJhboF6",
             "msg": "This actually works",
             "pin": "0",
