@@ -19,14 +19,12 @@ var getCoins = function( callback) {
             callback(null,null);
         }
         console.log(response.body+'news is above thissssssssssssssss');
-        var newsData = responseJson.message;
-	var s = {"speech":"something", 
-	"displayText": "something",
+        var newsData = responseJson.message.avgRate;
+	var s = {"speech":"Present Conversation Rate: 1Bitcoin = INR "+newsData,
+	"displayText": "Present Conversation Rate: 1Bitcoin  = INR"+newsData,
         "source": "apiai-weather-webhook-sample"}
         callback(null, s)
     })
 }
 
 module.exports = getCoins
-
-
