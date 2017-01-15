@@ -1,0 +1,19 @@
+{
+  "id": "6b8e410f-34b0-4f8b-8d08-1a4974a8d9ac",
+  "name": "NGOs",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "NGO",
+      "synonyms": [
+        "Swanthana",
+        "Desire",
+        "Samarthanam",
+        "U\u0026I",
+        "Asha"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

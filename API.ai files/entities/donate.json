@@ -1,0 +1,16 @@
+{
+  "id": "883d9d71-f50f-40d5-a49d-49a02106c36a",
+  "name": "donate",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "donate",
+      "synonyms": [
+        "donate",
+        "donation"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

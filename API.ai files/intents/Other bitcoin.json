@@ -1,0 +1,55 @@
+{
+  "userSays": [
+    {
+      "id": "1cdf28c8-4063-4df4-adf3-a0ef56cae8f4",
+      "data": [
+        {
+          "text": "Other platform"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9eeb9d76-5907-459d-a28e-65daa9098798",
+  "name": "Other bitcoin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry! We do not offer any other payment platform for now. We are still developing! :D"
+        },
+        {
+          "title": "What is \"CoinSecure\" and why use \"CoinSecure\"?",
+          "imageUrl": "http://static.tumblr.com/151dc1cebcccb8416cf2b7bc772da29c/fvagjox/VjVnw4oxl/tumblr_static_b9rt0z8jby0w8w0oswcckoggc_2048_v2.png",
+          "buttons": [
+            {
+              "text": "Know more",
+              "postback": "https://pay.coinsecure.in/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Do you still want to continue with \"CoinSecure\" or try any non-bitcoin payment platforms?",
+          "replies": [
+            "CoinSecure",
+            "Non bitcoin"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

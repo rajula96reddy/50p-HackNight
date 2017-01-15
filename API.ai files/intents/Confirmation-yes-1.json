@@ -1,0 +1,82 @@
+{
+  "userSays": [
+    {
+      "id": "e6102f16-ef94-4f4a-b56d-cb144941ab14",
+      "data": [
+        {
+          "text": "I would like to "
+        },
+        {
+          "text": "donate",
+          "alias": "donate",
+          "meta": "@donate",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dac2119d-1b71-4ccc-bbcd-da587cc0ef27",
+      "data": [
+        {
+          "text": "Yeah",
+          "alias": "Confirmation",
+          "meta": "@Confirmation",
+          "userDefined": true
+        },
+        {
+          "text": " , I\u0027m in! ☺"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "674ca59f-080f-45dd-9c12-73ebeb3a7a6e",
+  "name": "Confirmation-yes-1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "isList": false
+        },
+        {
+          "dataType": "@donate",
+          "name": "donate",
+          "value": "$donate"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Great!"
+        },
+        {
+          "title": "Which category based NGOs are you interested in?",
+          "replies": [
+            "Health",
+            "Education",
+            "Kids",
+            "Women",
+            "Physically Disabled",
+            "Mentally Disabled"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

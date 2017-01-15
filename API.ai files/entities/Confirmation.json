@@ -1,0 +1,25 @@
+{
+  "id": "5e50c3a0-62e7-40dc-8555-597b32e0e420",
+  "name": "Confirmation",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Yes",
+      "synonyms": [
+        "Yes",
+        "Yeah",
+        "Yup"
+      ]
+    },
+    {
+      "value": "No",
+      "synonyms": [
+        "No",
+        "Nope",
+        "Next time"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

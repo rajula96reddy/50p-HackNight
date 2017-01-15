@@ -1,0 +1,36 @@
+{
+  "userSays": [
+    {
+      "id": "e25e82dd-b95b-44aa-9399-dea2fc54417f",
+      "data": [
+        {
+          "text": "value"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3d33eafb-9ea8-47cd-b6b8-e7f0d251f6a6",
+  "name": "Value",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

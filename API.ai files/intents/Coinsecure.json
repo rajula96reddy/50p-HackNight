@@ -1,0 +1,44 @@
+{
+  "userSays": [
+    {
+      "id": "b6860bfc-e8d1-4cd0-a937-333aac87e48b",
+      "data": [
+        {
+          "text": "CoinSecure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a831d157-5995-487e-a7d8-fac52488a6c5",
+  "name": "Coinsecure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "imageUrl": "http://static.tumblr.com/151dc1cebcccb8416cf2b7bc772da29c/fvagjox/VjVnw4oxl/tumblr_static_b9rt0z8jby0w8w0oswcckoggc_2048_v2.png",
+          "type": 3
+        },
+        {
+          "title": "Do you have an account in \"CoinSecure\"?",
+          "replies": [
+            "I have an account.",
+            "I don\u0027t."
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

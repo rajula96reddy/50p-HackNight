@@ -1,0 +1,90 @@
+{
+  "userSays": [
+    {
+      "id": "cc8ea0a0-afd2-47ef-9649-16c324305268",
+      "data": [
+        {
+          "text": "Health"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b83b8443-0467-49d8-91f7-5f1836ba3f9f",
+  "name": "Health-Category",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The NGOs under this category are displayed below."
+        },
+        {
+          "title": "Desire",
+          "imageUrl": "http://www.desiresociety.org/files/cache/255f38fcfcb081ef11b15bf226ab95dd.jpg",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/desiresociety/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Swanthana",
+          "imageUrl": "https://jayati7.files.wordpress.com/2013/04/swanthana.jpg?w\u003d640",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/swanthana.ngo/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "U\u0026I",
+          "imageUrl": "https://www.globalgiving.org/pfil/organ/9664/orglogo.jpg",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/uandi.org.in/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Samarthanam",
+          "imageUrl": "http://www.fusionbiometrics.com/images/Logo/Service%20Industry/Samarthanam%20Trust%20for%20Disabled.png",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/Samarthanam/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Please select any one of the NGOs.",
+          "replies": [
+            "Desire",
+            "Swanthana",
+            "U\u0026I",
+            "Samarthanam"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

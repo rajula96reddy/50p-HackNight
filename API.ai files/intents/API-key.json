@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "b654c073-94a4-4feb-870c-ba6c5de73703",
+      "data": [
+        {
+          "text": "Key is "
+        },
+        {
+          "text": "APsck130459t5",
+          "alias": "last-name",
+          "meta": "@sys.last-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b9fe25db-6875-47a6-bd19-a77b5cc2fc34",
+  "name": "API-key",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "api",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "prompts": [
+            "What is the API?"
+          ],
+          "isList": false
+        },
+        {
+          "name": "key",
+          "value": "$last-name"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "This is your API key \u003d \"$last-name\"."
+        },
+        {
+          "title": "Choose any one of the below options.",
+          "replies": [
+            "Approve",
+            "Cancel transaction"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

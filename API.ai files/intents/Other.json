@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "e571231a-e4c5-4aa2-8b19-fd93907685d3",
+      "data": [
+        {
+          "text": "Non bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b71c5df8-0cd1-4067-9d47-5768d0a46829",
+      "data": [
+        {
+          "text": "Other"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "70466f6e-c6e7-48d2-b8b9-e208436b36b2",
+  "name": "Other",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "title": "What is \"Bitcoin\" and why use \"Bitcoin\"?",
+          "imageUrl": "http://moneyweek.com/wp-content/uploads/2016/05/160504-bitcoin-b.jpg",
+          "buttons": [
+            {
+              "text": "Know more",
+              "postback": "https://en.wikipedia.org/wiki/Bitcoin"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Please select any one of the below payment gateway providers.",
+          "replies": [
+            "RazorPay",
+            "More options"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

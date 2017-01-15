@@ -1,0 +1,36 @@
+{
+  "userSays": [
+    {
+      "id": "9de8ffee-ebfc-457f-a764-01704ca41551",
+      "data": [
+        {
+          "text": "I have an account."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e97ed02a-e6e0-4b7b-8625-e73e837ca98c",
+  "name": "I have an account.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please provide your API key."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

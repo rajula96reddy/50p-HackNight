@@ -1,0 +1,36 @@
+{
+  "userSays": [
+    {
+      "id": "dbbf50e3-11f8-490d-a7be-66e80ef62504",
+      "data": [
+        {
+          "text": "I don\u0027t."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a6a299fb-9cd0-42e3-96ae-1ba01ddb5632",
+  "name": "I don\u0027t.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please sign up through the below link and come back.\nhttps://coinsecure.in/login"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

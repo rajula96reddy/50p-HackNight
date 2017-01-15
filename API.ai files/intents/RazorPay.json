@@ -1,0 +1,36 @@
+{
+  "userSays": [
+    {
+      "id": "06480d84-4040-4628-8979-d6a4cbd760d2",
+      "data": [
+        {
+          "text": "RazorPay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cdf932df-2ea9-45df-a1e5-f1322691d29d",
+  "name": "RazorPay",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

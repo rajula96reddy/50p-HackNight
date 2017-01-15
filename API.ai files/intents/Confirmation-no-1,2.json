@@ -1,0 +1,73 @@
+{
+  "userSays": [
+    {
+      "id": "c8af9502-34d5-47a1-994b-367e17e3a848",
+      "data": [
+        {
+          "text": "Cancel transaction"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32cc8502-9438-4898-8865-029a75092cb9",
+      "data": [
+        {
+          "text": "No",
+          "alias": "Confirmation",
+          "meta": "@Confirmation",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46ed02ac-1baf-4955-87ef-3191d36213c1",
+      "data": [
+        {
+          "text": "Some other time ☹"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "438b25ca-b3c1-4ed5-b5b7-1b45ae3fcdfe",
+  "name": "Confirmation-no-1,2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It\u0027s OK. No problem!"
+        },
+        {
+          "title": "Please choose an option.",
+          "replies": [
+            "Return to beginning",
+            "Exit"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

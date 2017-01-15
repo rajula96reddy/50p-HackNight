@@ -1,0 +1,58 @@
+{
+  "userSays": [
+    {
+      "id": "d5e5379e-a756-4abf-b9e8-8cbcee4cd0c4",
+      "data": [
+        {
+          "text": "Yes",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "43cab09f-36dc-4c4f-bfe4-0dcbe990c70f",
+  "name": "Confirmation-yes-2",
+  "auto": true,
+  "contexts": [
+    "amount"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "amount",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "value",
+          "value": "#amount.value"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please wait while the payment process will be initiated. :)"
+        },
+        {
+          "title": "Which payment method do you prefer?",
+          "replies": [
+            "Bitcoin",
+            "Other"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

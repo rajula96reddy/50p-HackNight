@@ -1,0 +1,45 @@
+{
+  "userSays": [
+    {
+      "id": "05527d06-dc24-4a44-afb2-e7f24aba5247",
+      "data": [
+        {
+          "text": "NGO",
+          "alias": "NGOs",
+          "meta": "@NGOs",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "71c5edc9-25db-467b-822a-5263ce6f912e",
+  "name": "NGO-list",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@NGOs",
+          "name": "NGOs",
+          "value": "$NGOs"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "How much would you like to donate?(Supports only \"INR\" currently)"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

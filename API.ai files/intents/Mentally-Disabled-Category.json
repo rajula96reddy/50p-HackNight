@@ -1,0 +1,78 @@
+{
+  "userSays": [
+    {
+      "id": "761d6cdf-18f2-4427-af8e-e5eb7b5cac49",
+      "data": [
+        {
+          "text": "Mentally Disabled"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "524213f3-e039-4bc5-8c9c-a2e0019539ec",
+  "name": "Mentally-Disabled-Category",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The following NGO\u0027s fall under this category."
+        },
+        {
+          "title": "U\u0026I",
+          "imageUrl": "https://www.globalgiving.org/pfil/organ/9664/orglogo.jpg",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/uandi.org.in/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Swanthana",
+          "imageUrl": "https://jayati7.files.wordpress.com/2013/04/swanthana.jpg?w\u003d640",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/swanthana.ngo/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Samarthanam",
+          "imageUrl": "http://www.fusionbiometrics.com/images/Logo/Service%20Industry/Samarthanam%20Trust%20for%20Disabled.png",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/Samarthanam/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Please select any one of the NGOs.",
+          "replies": [
+            "U\u0026I",
+            "Swanthana",
+            "Samarthanam"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

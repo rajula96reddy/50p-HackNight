@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "cb4ca0eb-515b-4e60-975a-f5f5f40ad3d7",
+      "data": [
+        {
+          "text": "What is the Current Exchange Rate?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95ebfcf9-aa67-46c3-9173-003d2133cbaf",
+      "data": [
+        {
+          "text": "Current Exchange Rate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "81c4f592-9a43-4b09-b054-759820bb37cb",
+  "name": "Current Exchange Rate",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Rate",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

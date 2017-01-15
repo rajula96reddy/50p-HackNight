@@ -1,0 +1,20 @@
+{
+  "id": "ed5e364b-b273-4cef-9033-9afcf1d21f7a",
+  "name": "Greeting",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Greeting",
+      "synonyms": [
+        "Greeting",
+        "Hi",
+        "Hello",
+        "Hey",
+        "Namaste",
+        "Whats up?"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

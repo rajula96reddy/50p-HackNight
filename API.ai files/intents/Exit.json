@@ -1,0 +1,36 @@
+{
+  "userSays": [
+    {
+      "id": "cdabdf58-27e3-420e-802b-91b4a34eb7b4",
+      "data": [
+        {
+          "text": "Exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e7d623f0-87fd-422c-8d95-85be08fa8d05",
+  "name": "Exit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It was nice chatting with you. Do come back soon! Bye!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

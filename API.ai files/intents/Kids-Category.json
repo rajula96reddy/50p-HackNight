@@ -1,0 +1,78 @@
+{
+  "userSays": [
+    {
+      "id": "211d28a1-c705-4c70-8f25-30957ea35f60",
+      "data": [
+        {
+          "text": "Kids"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "611a5e12-3fde-4433-b77a-5d352570651f",
+  "name": "Kids-Category",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The NGOs under this category are displayed below."
+        },
+        {
+          "title": "Desire",
+          "imageUrl": "http://www.desiresociety.org/files/cache/255f38fcfcb081ef11b15bf226ab95dd.jpg",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/desiresociety/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Samarthanam",
+          "imageUrl": "http://www.fusionbiometrics.com/images/Logo/Service%20Industry/Samarthanam%20Trust%20for%20Disabled.png",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/Samarthanam/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "U\u0026I",
+          "imageUrl": "https://www.globalgiving.org/pfil/organ/9664/orglogo.jpg",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/uandi.org.in/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Please select any one of the NGOs.",
+          "replies": [
+            "Desire",
+            "Samathanam",
+            "U\u0026I"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "90b2a1ab-fec6-4ec4-bf39-98619834bd1d",
+      "data": [
+        {
+          "text": "Approve"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c79e34a6-51fc-46ef-a4c1-a17a7d4f32a7",
+  "name": "Initiate",
+  "auto": true,
+  "contexts": [
+    "api",
+    "amount"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intiate",
+      "affectedContexts": [
+        {
+          "name": "api",
+          "lifespan": 5
+        },
+        {
+          "name": "amount",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "key",
+          "value": "#api.key"
+        },
+        {
+          "name": "value",
+          "value": "#amount.value"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please wait while the payment is under process. Thank you for chatting! It was nice chatting with you. Do come back soon! Bye!"
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Note:\nIn case of any failure, please start from the beginning by entering \"Return to beginning\" or you can exit by entering \"exit\". We would like to apologise for any inconvenience caused.",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

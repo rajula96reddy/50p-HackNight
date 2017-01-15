@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "80beafb4-5376-44a7-94da-c8a2a85ba0bd",
+      "data": [
+        {
+          "text": "Education"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dd2a6520-6476-47bc-8b7e-1bebc90f3c62",
+  "name": "Education-Category",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The NGOs under this category are displayed below."
+        },
+        {
+          "title": "Asha",
+          "imageUrl": "http://new.ashaforeducation.org/wp-content/uploads/sites/17/2014/05/asha_logo.png",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/Team-Asha-Bangalore-83316059561/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Please select any one of the NGOs.",
+          "replies": [
+            "Asha"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

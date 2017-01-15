@@ -1,0 +1,40 @@
+{
+  "userSays": [
+    {
+      "id": "16564e0e-13cf-4c1f-ac7a-21ca0bd83b7a",
+      "data": [
+        {
+          "text": "Bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cde237c6-809e-4735-b663-e3a4d5922cec",
+  "name": "Bitcoin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "title": "Please select any one of the below payment gateway providers.",
+          "replies": [
+            "CoinSecure",
+            "Other platform"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

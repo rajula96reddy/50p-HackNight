@@ -1,0 +1,55 @@
+{
+  "userSays": [
+    {
+      "id": "96ce2c7a-8de0-4c03-b74d-d76ca88a1697",
+      "data": [
+        {
+          "text": "More options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cc27afd9-62e5-4ff5-891d-01406194a954",
+  "name": "More options",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry! We do not offer any other payment platform for now. We are still developing! :D"
+        },
+        {
+          "title": "What is \"Razorpay\" and why use \"Razorpay\"?",
+          "imageUrl": "data:image/png;base64,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\u003d",
+          "buttons": [
+            {
+              "text": "Know more",
+              "postback": "https://razorpay.com/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Do you still want to continue with \"Razorpay\" or try any bitcoin payment platforms?",
+          "replies": [
+            "Razorpay",
+            "Bitcoin"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

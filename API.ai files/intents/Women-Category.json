@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "531bcb76-295d-40c3-81e5-a9887195fa10",
+      "data": [
+        {
+          "text": "Women"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c632105e-bda8-4571-aafc-6714b79da10e",
+  "name": "Women-Category",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The NGOs under this category are displayed below."
+        },
+        {
+          "title": "Swanthana",
+          "imageUrl": "https://jayati7.files.wordpress.com/2013/04/swanthana.jpg?w\u003d640",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/swanthana.ngo/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "U\u0026I",
+          "imageUrl": "https://www.globalgiving.org/pfil/organ/9664/orglogo.jpg",
+          "buttons": [
+            {
+              "text": "Facebook Page",
+              "postback": "https://www.facebook.com/uandi.org.in/"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "Please select one of the NGOs.",
+          "replies": [
+            "Swanthana",
+            "U\u0026I"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
