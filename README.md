@@ -21,4 +21,4 @@ This is a facebook chat bot that provides a payment platform (supporting bitcoin
 We plan on adding other payment platforms and make the chat bot more interactive by adding more cognitive features.  
 
 ##Contribution
-Feel free to download the code and play around with the code. Ping the contribtors for further queries and we would be ready to assist you. :)  
+Feel free to download the code and play around with the code. Ping the contributors for further queries and we would be ready to assist you. :)  
